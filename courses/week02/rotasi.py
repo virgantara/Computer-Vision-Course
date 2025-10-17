@@ -1,8 +1,3 @@
-# Image Formation
-
-## Contoh Rotasi 4 buah titik
-
-```python
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -37,4 +32,3 @@ plt.ylabel("Y")
 plt.legend()
 plt.grid(True)
 plt.show()
-```
