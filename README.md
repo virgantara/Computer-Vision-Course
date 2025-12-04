@@ -1,25 +1,25 @@
-# Deep Learning (Machine Learning 2 - Pembelajaran Mesin 2)
+# Computer Vision [TI646746]
 - Department of Informatics, Universitas Darussalam Gontor, Ponorogo, Indonesia
 - Lecturer [Dr. Oddy Virgantara Putra](https://virgantara.github.io/)
 
 # Weekly Course Meeting:
 
-1. [Week 1 - Pengenalan Deep Learning (Introduction to Deep Learning)](courses/week01)
-1. [Week 2 - Arsitektur MLP dan Fungsi Aktivasi (MLP Architecture and Activation Function)](courses/week02)
-1. [Week 3 - Supervised Learning: Konsep dan Implementasi CNN (Supervised Learning: Concept and Implementation in CNN)](courses/week03)
-1. [Week 4 - Transfer Learning](courses/week04)
-1. [Week 5 - Recurrent Neural Network (RNN) untuk Data Berurutan (RNN for Sequential Data)](courses/week05)
-1. [Week 6 - Unsupervised Learning: Autoencoder untuk Representasi Fitur (Autoencoder for Representation Learning)](courses/week06)
-1. [Week 7 - Clustering dan Generative Models (Clustering)](courses/week07)
-1. [Week 8 - Mini Proyek (Implementasi Supervised dan Unsupervised Learning dalam Kasus Nyata)](courses/week08)
-1. [Week 9 - Self-Supervised Learning: Konsep dan Penerapan Contrastive Learning (Concept and Implementations of Contrastive Learning)](courses/week09)
-1. [Week 10 - Pretext Tasks dalam SSL untuk Representasi Data (Pretext Task for SSL)](courses/week10)
-1. [Week 11 - Evaluasi Model Deep Learning: Metrik dan Teknik Fine-Tuning (Performance Evaluation)](courses/week11)
-1. [Week 12 - Mengatasi Overfitting dan Underfitting (Handling Overfitting and Underfitting)](courses/week12)
-1. [Week 13 - Implementasi Deep Learning dalam Computer Vision (Computer Vision Implementation)](courses/week13)
-1. [Week 14 - Penerapan Deep Learning dalam NLP dan Skenario Nyata (Real World Scenario with NLP)](courses/week14)
-1. [Week 15 - Presentasi Hasil Team-Based Project (Team-base Project Presentation)](courses/week15)
-1. [Week 16 - Evaluasi Akhir Semester & Refleksi (Final Term Evaluation)](courses/week16)
+1. [Week 1 - Pengenalan Visi Komputer (Introduction to Computer Vision)](courses/week01)
+1. [Week 2 - Image Formation](courses/week02)
+1. [Week 3 - Image Processing](courses/week03)
+1. [Week 4 - Image Transformation](courses/week04)
+1. [Week 5 - Image Filtering](courses/week05)
+1. [Week 6 - Edge Detection](courses/week06)
+1. [Week 7 - Feature Descriptor & Feature Matching](courses/week07)
+1. [Week 8 - Mini Project (Implementasi feature extraction & matching pada dataset nyata.)](courses/week08)
+1. [Week 9 - Image Segmentation - part 1](courses/week09)
+1. [Week 10 - Image Segmentation - part 2](courses/week10)
+1. [Week 11 - Stereo Vision - part 1 (Epipolar Geometry)](courses/week11)
+1. [Week 12 - Stereo Vision - part 2 (Depth Reconstruction)](courses/week12)
+1. [Week 13 - Structure from Motion](courses/week13)
+1. [Week 14 - 3D Point Cloud Representation](courses/week14)
+1. [Week 15 - Advanced 3D Point Cloud Architecture](courses/week15)
+1. [Week 16 - Final Project (Implementasi feature extraction & matching pada dataset nyata.)](courses/week16)
 
 # Assessment:
 

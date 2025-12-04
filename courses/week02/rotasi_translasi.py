@@ -17,12 +17,14 @@ R = np.array([
     [np.sin(theta),  np.cos(theta)]
 ])
 
-# @ adalah perkalian matriks
+t = np.array([3, 2])
+
 rotated_points = points @ R.T
+transformed_points = rotated_points + t
 
 plt.figure(figsize=(6,6))
 plt.plot(points[:,0], points[:,1], 'bo--', label='Asli')
-plt.plot(rotated_points[:,0], rotated_points[:,1], 'ro--', label=f'Rotasi {theta_deg}°')
+plt.plot(transformed_points[:,0], transformed_points[:,1], 'ro--', label=f'Rotasi {theta_deg}°')
 
 plt.gca().set_aspect('equal', adjustable='box')
 plt.title("Transformasi Rotasi Persegi Panjang")
