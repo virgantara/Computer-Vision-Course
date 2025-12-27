@@ -1,16 +1,15 @@
 import numpy as np
+from scipy import ndimage
 
-def convolve(image, kernel):
-    kh, kw = kernel.shape
-    pad_h, pad_w = kh // 2, kw // 2
+def rgb2gray(img) :
+    return np.dot(img[..., :3], [0.2989, 0.5870, 0.1140])
 
-    padded = np.pad(image, ((pad_h, pad_h), (pad_w, pad_w)), mode='constant')
 
-    output = np.zeros_like(image)
+#Detemine gradient function for Fx and Fy using sobel filter(normlized)
+def gradient_x(img) :
+    grad_img = ndimage.convolve(img, np.array([[-1, 0, 1],[-2, 0, 2],[-1, 0, 1]]))
+    return grad_img/np.max(grad_img)
 
-    for y in range(image.shape[0]):
-        for x in range(image.shape[1]):
-            region = padded[y:y+kh, x:x+kw]
-            output[y, x] = np.sum(region * kernel)
-
-    return output
+def gradient_y(img) :
+    grad_img = ndimage.convolve(img, np.array([[-1, -2, -1],[0, 0, 0],[1, 2, 1]]))
+    return grad_img/np.max(grad_img)
